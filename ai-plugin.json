@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "capcut",
+  "name_for_model": "capcut",
+  "description_for_human": "Plugin to generate video by text.",
+  "description_for_model": "This plugin convert user requests into suitable scripts for video voiceovers, and automatically generate videos using the English version of the scripts.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.capcut.com/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://www.capcut.com/logo.png",
+  "contact_email": "capcut-web@bytedance.com",
+  "legal_info_url": "https://sf21-draftcdn-sg.ibytedtos.com/obj/ies-hotsoon-draft-sg/capcut/via_clause_user_agreement_en.html"
+}
